@@ -10,4 +10,5 @@ scikit-learn==1.0
 scipy==1.7.3
 sklearn==0.0
 threadpoolctl==3.0.0
-pymongo[srv]
+dnspython==1.16.0
+pymongo
