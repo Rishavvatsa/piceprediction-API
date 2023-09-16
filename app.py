@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from flask_cors import CORS
 import pythonScript
 
-uri='mongodb+srv://Ecommerce:kVL0JHFFi5OqF2MB@ecommerce.dbd8xqb.mongodb.net/Sabjiwala?retryWrites=true&w=majority'
+uri='mongodb+srv://karanmouryadmp:karan@cluster0.fzwllfy.mongodb.net/?retryWrites=true&w=majority'
 client=MongoClient(uri,tls=True,tlsAllowInvalidCertificates=True)
 
 app=Flask(__name__)

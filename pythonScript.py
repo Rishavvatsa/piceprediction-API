@@ -31,4 +31,4 @@ def predictPrice(name,season,state,availabilty,demand):
     return data
 
 if __name__=='__main__':
-    print(predictPrice(0,2,0,2,1))
+    print(predictPrice(4,2,0,2,2))
